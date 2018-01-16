@@ -13,8 +13,8 @@ int main(void) {
 		}
   }
   if(count==0)
-  printf("False");
+  printf("No");
   else
-  printf("True");
+  printf("Yes");
 	return 0;
 }
