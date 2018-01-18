@@ -1,19 +1,14 @@
-#include <stdio.h>
-
 int main(void) {
 	int a=0,b=1,c,i,n;
     scanf("%d",&n);
-    for(i=0;i<n;i++)
+    for(i=1;i<=n;++i)
     {
-     if(i<=1)
-    c=i;
-    else
-{
-    c=a+b;
+   c=a+b;
     a=b;
     b=c;
+	printf("%d ",a);    
 }
-printf("%d\t",c);
-}
+
 	return 0;
 }
+
