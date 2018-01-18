@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 int main(void) {
-  long int n,next=0;
+  long int n;
   scanf("%ld",&n);
-  next=n+1;
-  printf("%ld",next);
+   printf("%ld",n+1);
       return 0;
 }
