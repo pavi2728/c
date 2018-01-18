@@ -9,3 +9,4 @@ b=temp;
 printf("%ld %ld",a,b);
 	return 0;
 }
+
