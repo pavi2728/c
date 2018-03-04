@@ -12,11 +12,11 @@ count++;
 }
 if(count>0)
 {
-printf("not prime");
+printf("no");
 }
 else
 {
-printf("prime");
+printf("yes");
 }
 return 0;
 }
