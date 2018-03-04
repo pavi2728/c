@@ -3,12 +3,13 @@
 int main(void)
 {
 char a[100],b[100];
-int l=0,i,flag=0;
+int l=0,i,flag=0,j=0;
 scanf("%s",a);
 l=strlen(a);
 for(i=l-1;i>=0;i--)
 {
-b[l-i-1]=a[i];
+b[j]=a[i];
+j++;
 }
 for(flag=1,i=0;i<l;i++)
 {
