@@ -1,5 +1,4 @@
-. #include <stdio.h>
-
+#include <stdio.h>
 int main(void) {
 
 	int i,n,j,count=0,a[100];
