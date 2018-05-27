@@ -1,4 +1,4 @@
-. #include <stdio.h>
+#include <stdio.h>
 
 int main(void) {
 	int a[100],n,i,j=0,b[100],count=0,temp;
@@ -14,6 +14,9 @@ int main(void) {
 		 b[j]=a[i];
 		 j++;
 		 count++;
+		}
+		else{
+			printf("-1");
 		}
 	}
 	for(i=0;i<count;i++)
